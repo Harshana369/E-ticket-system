@@ -1,0 +1,30 @@
+.card {
+    text-align: center;
+    width: 7em;
+    font-size: 1em;
+    padding: 0;
+    border: none !important;
+    height: 100% !important;
+}
+
+.name {
+    padding: 0.2em 0.4em 0.2em 0.4em !important;
+    font-weight: bold;
+    background-color: var(--background-secondary) !important;
+}
+
+.roleName {
+    padding: 0.2em 0.4em 0.2em 0.4em !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-tertiary) !important;
+}
+
+.deleteIcon {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.496);
+    border-radius: 0.3em;
+    color: black;
+    right: 0;
+}

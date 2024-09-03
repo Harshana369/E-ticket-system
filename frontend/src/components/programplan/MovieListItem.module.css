@@ -1,0 +1,54 @@
+.movieListItem {
+  background-color: transparent;
+  padding: 1.5rem 0 !important;
+}
+
+.card {
+  width: 100%;
+  background-color: transparent !important;
+}
+
+.cover {
+  float: left;
+  width: 30%;
+  max-width: 15em;
+  min-width: 9em;
+  margin-right: 1em;
+  margin-bottom: 0.3em;
+}
+
+.information {
+  padding-left: 1em;
+  margin-top: 1.5em;
+}
+
+.text {
+}
+
+.title {
+  font-size: 2em !important;
+  margin-top: 1rem !important;
+}
+
+.subtitle {
+  font-size: 1.4em;
+}
+
+.description {
+  text-align: justify;
+}
+
+@media (max-width: 750px) {
+  .movieListItem {
+    padding: 1rem 0 !important;
+  }
+
+  .title {
+    font-size: 1.5em !important;
+  }
+
+  .text {
+    padding-left: 0;
+    margin-top: 0.8em;
+  }
+}

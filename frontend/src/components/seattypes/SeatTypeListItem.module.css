@@ -1,0 +1,18 @@
+.card {
+    text-align: center;
+    width: 12em !important;
+    background-color: var(--text-primary);
+    color: var(--text-secondary);
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.header {
+    font-weight: bold;
+}
+
+@media (max-width: 750px) {
+    .card {
+        width: 100% !important;
+    }
+}

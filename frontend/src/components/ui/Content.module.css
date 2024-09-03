@@ -1,0 +1,20 @@
+.content {
+  width: 80vw;
+  max-width: 90em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: var(--background-primary);
+  border-radius: 2em;
+  object-fit: contain;
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@media (max-width: 750px) {
+  .content {
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    border-radius: 1em;
+  }
+}

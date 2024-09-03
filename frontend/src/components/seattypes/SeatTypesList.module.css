@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+@media (max-width: 750px) {
+    .list {
+        flex-direction: column;
+    }
+}

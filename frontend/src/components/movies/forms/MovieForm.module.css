@@ -1,0 +1,28 @@
+.listGroup {
+  color: red;
+  position: fixed;
+  width: 80vw;
+  z-index: 100;
+}
+
+.inputButtonGroup {
+  display: flex;
+  flexDirection: row; 
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.badgeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.card {
+  /* mt-4 mb-3 p-4 */
+  margin-top: 2rem;
+  /* margin-bottom: 1rem; */
+  padding: 1em;
+  background-color: rgba(48, 85, 99, 0.2) !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

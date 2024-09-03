@@ -1,0 +1,25 @@
+.login {
+    border: 1px solid #212529;
+    border-radius: 1em;
+    width: 30em;
+    padding: 1.5em 2em 2em 2em;
+    background-color: var(--background-primary);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.login button {
+    width: 100%;
+}
+
+.login h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .login {
+        width: 100%;
+        max-width: none;
+        padding: 1.5em 1rem 1.5rem 1rem;
+    }
+}

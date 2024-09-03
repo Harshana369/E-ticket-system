@@ -1,0 +1,44 @@
+.navBar {
+  box-shadow: rgba(22, 22, 22, 0.337) 0px 7px 29px 0px;
+  background-color: rgba(var(--background-navbar), 0.95) !important;
+}
+
+.navBar * {
+  color: var(--text-primary);
+}
+
+.brand * {
+  color: var(--text-primary) !important;
+  text-decoration: none !important;
+}
+
+.brand:hover * {
+  color: var(--text-primary) !important;
+  text-decoration: none !important;
+}
+
+.navLinks {
+  display: flex;
+  gap: 0.8em;
+}
+
+.authAction span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2em;
+}
+
+@media (max-width: 768px) {
+  .navBar * {
+    text-align: center !important;
+  }
+
+  .navAccount {
+    margin-top: 0.8em;
+  }
+
+  .navBar {
+    background-color: rgba(var(--background-navbar), 1) !important;
+  }
+}

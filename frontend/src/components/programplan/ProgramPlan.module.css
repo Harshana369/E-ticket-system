@@ -1,0 +1,14 @@
+.programPlan {
+  width: 100%;
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+.border {
+  border: none !important;
+  border-top: 1.5px solid var(--background-secondary) !important;
+}
+
+.noneBorder {
+  border: none !important;
+}
